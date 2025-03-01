@@ -73,6 +73,15 @@ img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* ---- Imágenes ---- */
+img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* ---- Texto ---- */
 .texto {
     font-size: 18px;
