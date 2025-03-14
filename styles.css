@@ -1,0 +1,145 @@
+/* Importar fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f6f9;
+    color:  #FFFFFF;
+}
+
+/* ---- Header ---- */
+header {
+    background: linear-gradient(180deg, #1a237e, #3949ab);
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* ---- Menú de Navegación ---- */
+nav {
+    background-color: #283593;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc80;
+}
+
+/* ---- Secciones ---- */
+.categoria {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #283593;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ---- Productos ---- */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* ---- Footer ---- */
+footer {
+    background: #1a237e;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* ---- Responsivo ---- */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        width: 90%;
+        max-width: 300px;
+    }
+}
