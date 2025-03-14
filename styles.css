@@ -52,7 +52,7 @@ nav ul li a {
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
-.caja blue {
+.imgg_jpg.jpg {
     display: flex;
     justify-content: center;
     background-color: blue;
