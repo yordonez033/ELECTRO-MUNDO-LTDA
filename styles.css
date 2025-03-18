@@ -73,7 +73,11 @@ h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
-
+img {
+    widhth: 100%
+    height: auto; /* Mantiene la propocion de la imagen*/
+    display: block;  /* Elimina espacios extra debajo de la imagen*/
+}  
 /* ---- Productos ---- */
 .productos {
     display: flex;
