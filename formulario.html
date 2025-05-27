@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribucion Electro Mundo Ltda.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+    /* Importar fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f6f9;
+    color:  #FFFFFF;
+
+}
+
+/* ---- Header ---- */
+header {
+    background: linear-gradient(180deg, #1a237e, #3949ab);
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* ---- Menú de Navegación ---- */
+nav {
+    background-color: #283593;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc80;
+}
+
+/* ---- Secciones ---- */
+.categoria {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #283593;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+img {
+    width: 100%;
+    height: auto; /* Mantiene la proporcion de la imagen */
+    display: block;  /* Elimina espacios extra debajo de la imagen */
+    text-align: center;
+}  
+/* ---- Productos ---- */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* ---- Footer ---- */
+footer {
+    background: #1a237e;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* ---- Responsivo ---- */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+</style>
+    <header>
+        <h1>Electro Mundo Ltda.</h1>
+        <input type="text" placeholder="Buscar..." id="search-bar">
+
+    <nav>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#">Automotriz</a></li>
+            <li><a href="#">Electrónica</a></li>
+            <li><a href="#">Electro Hogar</a></li>
+            <li><a href="#">Informática</a></li>
+            <li><a href="#">Ferretería</a></li>
+            <li><a href="#">Hogar</a></li>
+            <li><a href="#">Mercado</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+       
+    <main>
+        <section>
+            <h1> La Solucion En Tus Manos Con Material De Calidad Para Tu Seguridad</h1>
+            <p>Soluciones integrales en múltiples sectores para satisfacer todas tus necesidades.</p>
+            <img src="https://files.oaiusercontent.com/file-7R1wpW5Hz9nsvMdR3EGy5H?se=2025-05-27T13%3A15%3A32Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D61d32edd-3579-4142-b6a3-1cb753e5ac01.webp&sig=6AFmEpsaw6UWW6qWUziS5Is11CEYmI%2BrlyzgQUtNAK8%3D">     
+      </section>
+    </main>
+
+      <footer>
+        <p>&copy; </p>
+    <section id="herramientas" class="categoria">
+            <h2>Herramientas</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://c8.alamy.com/compes/cnpdwj/taladro-inalambrico-dewalt-cnpdwj.jpg" alt="Taladro eléctrico">
+                    <p>Taladro Eléctrico</p>
+                </div>
+                <div class="producto">
+                    <img src="https://img.joomcdn.net/cf3736a84d159b2111659e5429bcd74726c0b163_original.jpeg" alt="Martillo de carpintero">
+                    <p>Martillo de Carpintero</p>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <p>&copy; </p>
+     <section id="tecnologia" class="categoria">
+            <h2>Tecnología</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://th.bing.com/th/id/OIP.sJWso8RF1AgWRHTkV9riIQHaFn?rs=1&pid=ImgDetMain" alt="Laptop de última generación">
+                    <p>Laptop de Última Generación</p>
+                </div>
+                <div class="producto">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/index2-660d8cf65cd7f.jpg?crop=1xw:1xh;center,top&resize=1200:*" alt="Smartphone avanzado">
+                    <p>Smartphone Avanzado</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="electrodomesticos" class="categoria">
+            <h2>Electrodomésticos</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://th.bing.com/th/id/R.58df5dca137a2b63e2f33b508b41609b?rik=yZRBiRMipCLYzQ&riu=http%3a%2f%2fblog.homedepot.com.mx%2fwp-content%2fuploads%2f2019%2f01%2fRefrigeradorSamsung.jpg&ehk=qAvXsKznpjxR2NChkTX9tkrNks1%2f4TOx4rJfCOvmvq4%3d&risl=&pid=ImgRaw&r=0" alt="Refrigerador doble puerta">
+                    <p>Refrigerador Doble Puerta</p>
+                </div>
+                <div class="producto">
+                    <img src="https://th.bing.com/th/id/OIP.140lzThb9tZv73wFhbhtvQHaFj?rs=1&pid=ImgDetMain" alt="Horno Microondas">
+                    <p>Horno Microondas</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hogar" class="categoria">
+            <h2>Hogar</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://m.media-amazon.com/images/I/81of63uNacL._AC_SL1500_.jpg" alt="Silla ergonómica">
+                    <p>Silla Ergonómica</p>
+                </div>
+                <div class="producto">
+                    <img src="https://th.bing.com/th/id/R.2fabaf6f8b2c25428572b80e34a45921?rik=c5BkLzLRuOMROA&pid=ImgRaw&r=0" alt="Lámpara LED">
+                    <p>Lámpara LED</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+       <footer>
+        <p>&copy; 2025 Electro Mundo Ltda. Todos los derechos reservados.</p>
+        <p>Horario: Lunes a Viernes 7:00 am - 6:30 pm | Sábados 8:00 am - 12:00 pm</p>
+        <p>Teléfono: 3148976612 | Email: contacto@electromundoltda.com</p>
+    </footer>
+</body>
+</html>
